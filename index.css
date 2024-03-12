@@ -1,0 +1,50 @@
+.Head{
+ 
+    justify-content: space-between;
+    display: flex;
+    margin: 10px;
+    border: 2px solid black;
+  
+
+}
+
+h1{
+
+    background-color: rgb(8, 15, 18);
+    color: rgb(247, 241, 241);
+    text-align: left;
+}
+h2{
+    color: black;
+}
+
+.Navitem > ul  {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    
+}
+
+.Navitem > ul >li {
+    
+    padding: 10px;
+    
+}
+.img{
+    width: 100px;
+    padding: 10;
+    align-items: left;
+}
+.image{
+    width:150px;
+}
+.card{
+    width:150px;
+    border:1px solid black;
+
+}
+.Restaurent-list{
+    display: flex;
+    padding: 10px;
+    justify-content:space-around;
+}
