@@ -1,50 +1,43 @@
-.Head{
- 
-    justify-content: space-between;
-    display: flex;
-    margin: 10px;
-    border: 2px solid black;
-  
-
-}
-
-h1{
-
-    background-color: rgb(8, 15, 18);
-    color: rgb(247, 241, 241);
-    text-align: left;
-}
-h2{
-    color: black;
-}
-
-.Navitem > ul  {
-    list-style-type: none;
-    display: flex;
-    padding: 10px;
-    
-}
-
-.Navitem > ul >li {
-    
-    padding: 10px;
-    
-}
-.img{
+.logo{
     width: 100px;
-    padding: 10;
-    align-items: left;
 }
-.image{
-    width:150px;
+.head{
+   justify-content: space-between; 
+   display: flex;
+   padding: 10px;
+   border:1px solid black;
+   margin: 10px;
 }
-.card{
-    width:150px;
-    border:1px solid black;
+.list >ul {
+       display: flex;
+       padding:10px
+}
+.list >ul >li{
+    display: flex;
+    justify-content: space-between;
+    padding:10px
+}
+.Nav-item{
+    justify-content: space-around;
+    border: 2px solid black;
+    padding: 10px;
+   width: 200px;
+
 
 }
-.Restaurent-list{
+.map{
     display: flex;
+    padding:10px;
+    width:100px;
+    justify-content: space-between;
+}
+.Restimg{
+    border: 1px solid black;
+    width:100px
+    
+}
+.Cards{
+    display: flex;
+    justify-content: space-around;
     padding: 10px;
-    justify-content:space-around;
 }
